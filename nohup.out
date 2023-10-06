@@ -1,0 +1,38 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+October 06, 2023 - 13:12:16
+Django version 4.2.6, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+[06/Oct/2023 13:12:22] "GET /todos/ HTTP/1.1" 200 4110
+[06/Oct/2023 13:12:23] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[06/Oct/2023 13:12:24] "GET /favicon.ico HTTP/1.1" 404 2572
+Not Found: /favicon.ico
+[06/Oct/2023 13:12:25] "GET /favicon.ico HTTP/1.1" 404 2572
+[06/Oct/2023 13:12:25] "GET /todos/22/delete HTTP/1.1" 302 0
+[06/Oct/2023 13:12:26] "GET /todos/ HTTP/1.1" 200 3515
+Not Found: /favicon.ico
+[06/Oct/2023 13:12:27] "GET /favicon.ico HTTP/1.1" 404 2572
+Not Found: /favicon.ico
+[06/Oct/2023 13:12:28] "GET /favicon.ico HTTP/1.1" 404 2572
+[06/Oct/2023 13:12:30] "POST /todos/add/ HTTP/1.1" 302 0
+[06/Oct/2023 13:12:31] "GET /todos/ HTTP/1.1" 200 4097
+Not Found: /favicon.ico
+[06/Oct/2023 13:12:31] "GET /favicon.ico HTTP/1.1" 404 2572
+Not Found: /favicon.ico
+[06/Oct/2023 13:12:32] "GET /favicon.ico HTTP/1.1" 404 2572
+[06/Oct/2023 13:13:58] "GET /todos/ HTTP/1.1" 200 4097
+Not Found: /favicon.ico
+[06/Oct/2023 13:13:59] "GET /favicon.ico HTTP/1.1" 404 2572
+Not Found: /favicon.ico
+[06/Oct/2023 13:14:00] "GET /favicon.ico HTTP/1.1" 404 2572
